@@ -34,7 +34,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #66C0C0;
+  background-color: #000;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #66C0C0;
+  background-color: #000;
   color: #fff;
   text-align: left;
 }
@@ -84,10 +84,8 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
+  width: 40%; 
+  border-radius: 100%;  
 }
 
 /* Features Section */
@@ -101,22 +99,22 @@ p {
 }
 
 .feature-box {
-  padding: 4.5%;
+  padding: 1.5%;
 }
 
 .icon {
-  color: #a3d9d9;
+  color: grey;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #66C0C0;
+  color: #000;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #66C0C0;
+  background-color: #000;
 }
 
 .testimonial-text {
@@ -129,10 +127,14 @@ p {
   border-radius: 100%;
   margin: 20px;
 }
+.carousel-margin
+{
+  margin: 5% auto auto auto;
+}
 
 
 #press {
-  background-color: #66C0C0;
+  background-color: #000;
   padding-bottom: 3%;
 }
 
@@ -141,10 +143,11 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
+/* Home Section */
 
-#pricing {
+#home {
   padding: 100px;
+  margin: 10% auto 10% auto;
 }
 
 .price-text {
@@ -154,6 +157,11 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+.about-content
+{
+  color: black;
+  font-size: 2rem;
 }
 
 /* CTA Section */
