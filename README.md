@@ -1,2 +1,2 @@
-# jbMediia
-Jyoti's Website
+# specspod
+SpecsPod Website
